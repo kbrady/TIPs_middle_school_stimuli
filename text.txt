@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Custom css-->
+<link rel="stylesheet" href="static/css/main.css">
+<script src="static/js/main.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container-fluid">
+
+
+# 1920: Women Get the Vote
+
+# 1920: Women Get the Vote
+
+by Sam Roberts
+
+> The 19th Amendment was ratified in 1920, after decades of campaigning by the women's suffrage movement.
+
+When John Adams and his fellow patriots were mulling independence from England in the spring of 1776, Abigail Adams famously urged her husband to "remember the ladies and be more generous and favorable to them than your ancestors." Otherwise, she warned, "we are determined to foment a rebellion, and will not hold ourselves bound by any laws in which we have no voice or representation."
+
+That summer, the Declaration of Independence proclaimed that all men are created equal but said nothing of women's equality. It would take another 144 years before the U.S. Constitution was amended, giving women the right to vote in every state.
+
+That 19th Amendment says simply: "The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of sex." It took effect after a dramatic ratification battle in Tennessee in which a 24-year-old legislator cast the deciding vote.
+
+The amendment was a long time coming. At various times, women could run for public office in some places, but could rarely vote. (As far back as 1776, New Jersey allowed women property owners to vote, but rescinded that right three decades later.)
+
+![1915 parade in New York City for women's suffrage](https://www.nationsreportcard.gov/subject/reading_2011/images/tyread8_passage_img1.jpg "More than 20,000 marchers took part in this 1915 parade in New York City in support of women's suffrage.")
+
+# "Womanifesto"
+
+The campaign for women's rights began in earnest in 1848 at a Women's Rights convention in Seneca Falls, N.Y., organized by 32-year-old Elizabeth Cady Stanton and other advocates. Stanton had drafted a "Womanifesto" patterned on the Declaration of Independence, but the one resolution that shocked even some of her supporters was a demand for equal voting rights, also known as universal suffrage. "I saw clearly," Stanton later recalled, "that the power to make the laws was the right through which all other rights could be secured."
+
+Stanton was joined in her campaign by Susan B. Anthony, Sojourner Truth, Lucretia Mott, and other crusaders who would become icons of the women's movement. Some were militant. Many were met with verbal abuse and even violence. Already active in the antislavery movement and temperance campaigns (which urged abstinence from alcohol), women often enlisted in the fight for voting rights too.
+
+![Elizabeth Cady Stanton and Susan B. Anthony](https://www.nationsreportcard.gov/subject/reading_2011/images/tyread8_passage_img2.jpg "Elizabeth Cady Stanton and Susan B. Anthony")
+
+# Wyoming is First
+
+They staged demonstrations, engaged in civil disobedience, began legal challenges, and pressed their case state by state.
+
+In 1869, the Wyoming Territory gave women the vote, with the first permanent suffrage law in the nation. ("It made sense that a place like Wyoming would embrace women's rights," Gail Collins of The New York Times wrote in her book America's Women. "With very few women around, there was no danger that they could impose their will on the male majority.")
+
+In 1878, a constitutional amendment was introduced in Congress. The legislation languished for nine years. In 1887, the full Senate considered the amendment for the first time and defeated it by about 2-to-1.
+
+But the suffrage movement was slowly gaining support. With more and more women graduating from high school, going to college, and working outside the home, many Americans began asking: Why couldn't women vote too?
+
+Plenty of opposition existed, according to Collins: Democrats feared women would vote for more socially progressive Republicans. The liquor industry, afraid of prohibition, also opposed women's suffrage, as did many people in the South, where blacks had been largely disenfranchised since Reconstruction.
+
+In 1918, after much cajoling and picketing by suffragists, President Woodrow Wilson changed his mind and backed the amendment. The next year, both houses of Congress voted to amend the Constitution. Suffrage advocates predicted quick ratification by the states. (By 1919, 28 states permitted women to vote, at least for President.) Within a little more than a year, 35 of the required 36 states had voted for ratification.
+
+The last stand for anti-suffragists was in Tennessee in the summer of 1920. Their showdown in the State Legislature became known as the "War of the Roses." (Pro-amendment forces sported yellow roses; the antis wore red.)
+
+After two roll calls, the vote was still tied, 48-48. On the third, Harry T. Burn, a Republican and, at 24, the youngest member of the legislature. switched sides. He was wearing a red rose but voted for ratification because he had received a letter from his mother that read, in part: "Hurrah and vote for suffrage! Don't keep them in doubt!"
+
+Burn said later: "I know that a mother's advice is always safest for her boy to follow and my mother wanted me to vote for ratification. I appreciated the fact that an opportunity such as seldom comes to mortal man-to free 17,000,000 women from political slavery-was mine."
+
+## Gradual Change
+
+In 1920, women across America had the right to vote in a presidential election. (In the South, black women and men would be kept off voter rolls in large numbers until 1965, after passage of the Voting Rights Act.)
+
+But newly enfranchised women voted in much smaller numbers than men. "Women who were adults at that time had been socialized to believe that voting was socially inappropriate for women," says Susan J. Carroll, senior scholar at the Center for American Women and Politics.
+
+The political and social change sought by suffragists came gradually and not without fits and starts. An Equal Rights Amendment, stipulating equal treatment of the sexes under the law, was passed by Congress and sent to the states in 1972, but later failed after being ratified by only 35 of the necessary 38 states.
+
+In 1980, however, women surpassed men for the first time in turnout for a presidential election. Since then, there has also been a substantial rise in the number of women running for and holding political office.
+
+</div>
+</body>
+</html>
+

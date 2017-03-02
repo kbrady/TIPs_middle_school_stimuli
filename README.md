@@ -5,7 +5,7 @@
 * Clicky: Tracks users. I think this is more than we need
 
 #### Note Taking:
-* (Marker.to)[marker.to]: A web browser extension that lets you highlight and share text.
+* [Marker.to](marker.to): A web browser extension that lets you highlight and share text.
 * Diigo: Tool bar for Internet Explorer or Firefox which lets you take notes and highlight
 * Scrible: Note taking extension for Firefox and Chrome
 
