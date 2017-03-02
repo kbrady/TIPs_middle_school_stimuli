@@ -8,9 +8,11 @@ function read_out() {
 
 	if (window.speechSynthesis.paused) {
 		window.speechSynthesis.resume();
+		console.log("resuming");
 		return;
 	}
-	if (window.speechSynthesis.speaking) {
+	if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
+		console.log("Already talking");
 		return;
 	}
 	var paragraphs = document.getElementById("content").children;
@@ -21,7 +23,7 @@ function read_out() {
 
 function say(my_element) {
 	var msg = new SpeechSynthesisUtterance(my_element.textContent);
-	msg.lang = "en";
+	msg.lang = "en-us";
 	msg.onstart = function (event) {
 		my_element.className += " highlighted";
 	};
