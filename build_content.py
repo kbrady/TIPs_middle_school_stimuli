@@ -44,5 +44,6 @@ def build_webpage(filename, include_voice=False):
 		output_file.write(html)
 
 delete_html_files()
-build_webpage('womens_suffrage.md', include_voice=True)
+build_webpage('womens_suffrage_1.md', include_voice=True)
+build_webpage('womens_suffrage_2.md', include_voice=True)
 build_webpage('womens_test.html')
