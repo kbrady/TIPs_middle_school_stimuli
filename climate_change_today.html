@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Custom css-->
+<link rel="stylesheet" href="static/css/main.css">
+<script src="static/js/main.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!-- child of the body tag -->
+<nav class="navbar-fixed-top">
+	<div class="navbar-right">
+	<span id="top-link-block">
+	    <a class="well well-sm" onclick="read_out()">
+	        <i class="glyphicon glyphicon-play"></i> Read Text
+	    </a>
+	    <a class="well well-sm" onclick="window.speechSynthesis.pause()">
+	        <i class="glyphicon glyphicon-pause"></i> Pause Reading
+	    </a>
+	    <a class="well well-sm" onclick="window.speechSynthesis.cancel()">
+	        <i class="glyphicon glyphicon-stop"></i> Cancel Reading
+	    </a>
+	</span>
+	</div>
+</nav>
+<!-- /top-link-block -->
+
+<!-- is speach syntehsis supported? -->
+<div id="speach-msg" class="hidden" role="alert"></div>
+<div id="content" class="container-fluid"><h2>Today's Climate Change</h2>
+<p>More than 100 years ago, people around the world started burning large amounts of coal, oil, and natural gas to power their homes, factories, and vehicles. Today, most of the world relies on these fossil fuels for their energy needs. Burning fossil fuels releases carbon dioxide, a heat-trapping gas, into the atmosphere, which is the main reason why the climate is changing.</p>
+<p>Heat-trapping gases are also called greenhouse gases. They exist naturally in the atmosphere, where they help keep the Earth warm enough for plants and animals to live. But people are adding extra greenhouse gases to the atmosphere. These extra gases are causing the Earth to get warmer, setting off all sorts of other changes around the world-on land, in the oceans, and in the atmosphere. And these changes affect people, plants, and animals in many ways.</p>
+<h3>The Greenhouse Effect</h3>
+<p>If it were not for greenhouse gases trapping heat in the atmosphere, the Earth would be a very cold place. Greenhouse gases keep the Earth warm through a process called the greenhouse effect.</p>
+<blockquote>
+<p>There is a video at https://youtu.be/VYMjSule0Bw about the greenhouse effect. Do we want to embed a video or break it into pictures and captions so it will be the same on a print out.</p>
+</blockquote>
+<p>The Earth gets energy from the sun in the form of sunlight. The Earth's surface absorbs some of this energy and heats up. That's why the surface of a road can feel hot even after the sun has gone down-because it has absorbed a lot of energy from the sun. The Earth cools down by giving off a different form of energy, called infrared radiation. But before all this radiation can escape to outer space, greenhouse gases in the atmosphere absorb some of it, which makes the atmosphere warmer. As the atmosphere gets warmer, it makes the Earth's surface warmer, too.</p></div></body>
+</html>
