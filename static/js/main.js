@@ -6,15 +6,12 @@ function read_out() {
 		supportMsg.className = "alert alert-danger";
 	}
 
-	if (window.speechSynthesis.paused) {
+	if (window.speechSynthesis.paused || window.speechSynthesis.speaking || window.speechSynthesis.pending) {
 		window.speechSynthesis.resume();
 		console.log("resuming");
 		return;
 	}
-	if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
-		console.log("Already talking");
-		return;
-	}
+	window.speechSynthesis.cancel();
 	var paragraphs = document.getElementById("content").children;
 	for (var i=0, max=paragraphs.length; i < max; i++) {
   		say(paragraphs[i]);
