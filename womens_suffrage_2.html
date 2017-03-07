@@ -9,33 +9,39 @@
 
 <!-- Custom css-->
 <link rel="stylesheet" href="static/css/main.css">
+
+<!-- Custom javascript-->
 <script src="static/js/main.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<div id="full-body" class="container-fluid" style="padding-right:30px;">
+
+
+<!-- note taking javascript from hypothes.is-->
+<script async defer src="https://hypothes.is/embed.js"></script>
 
 <!-- child of the body tag -->
 <nav class="navbar-fixed-top">
 	<div class="navbar-right">
-	<span id="top-link-block">
+	<div id="tts-buttons">
 	    <a class="well well-sm" onclick="read_out()">
-	        <i class="glyphicon glyphicon-play"></i> Read Text
+	        <i class="glyphicon glyphicon-play"></i> Read
 	    </a>
 	    <a class="well well-sm" onclick="window.speechSynthesis.pause()">
-	        <i class="glyphicon glyphicon-pause"></i> Pause Reading
+	        <i class="glyphicon glyphicon-pause"></i> Pause  
 	    </a>
-	    <a class="well well-sm" onclick="window.speechSynthesis.cancel()">
-	        <i class="glyphicon glyphicon-stop"></i> Cancel Reading
-	    </a>
-	</span>
+	</div>
 	</div>
 </nav>
 <!-- /top-link-block -->
 
 <!-- is speach syntehsis supported? -->
 <div id="speach-msg" class="hidden" role="alert"></div>
-<div id="content" class="container-fluid"><h1>1920: Women Get the Vote (continued)</h1>
+<a href="womens_suffrage_1.html">Prev</a>
+<div id="content" class="container-fluid">
+<h1>1920: Women Get the Vote (continued)</h1>
 <h3>Wyoming is First</h3>
 <p>They staged demonstrations, engaged in civil disobedience, began legal challenges, and pressed their case state by state.</p>
 <p>In 1869, the Wyoming Territory gave women the vote, with the first permanent suffrage law in the nation. ("It made sense that a place like Wyoming would embrace women's rights," Gail Collins of The New York Times wrote in her book America's Women. "With very few women around, there was no danger that they could impose their will on the male majority.")</p>
@@ -50,6 +56,8 @@
 <p>In 1920, women across America had the right to vote in a presidential election. (In the South, black women and men would be kept off voter rolls in large numbers until 1965, after passage of the Voting Rights Act.)</p>
 <p>But newly enfranchised women voted in much smaller numbers than men. "Women who were adults at that time had been socialized to believe that voting was socially inappropriate for women," says Susan J. Carroll, senior scholar at the Center for American Women and Politics.</p>
 <p>The political and social change sought by suffragists came gradually and not without fits and starts. An Equal Rights Amendment, stipulating equal treatment of the sexes under the law, was passed by Congress and sent to the states in 1972, but later failed after being ratified by only 35 of the necessary 38 states.</p>
-<p>In 1980, however, women surpassed men for the first time in turnout for a presidential election. Since then, there has also been a substantial rise in the number of women running for and holding political office.</p>
-<p><a href="womens_test.html">Answer some questions</a></p></div></body>
+<p>In 1980, however, women surpassed men for the first time in turnout for a presidential election. Since then, there has also been a substantial rise in the number of women running for and holding political office.</p></div>
+<a href="womens_test.html">Next</a>
+</div>
+</body>
 </html>

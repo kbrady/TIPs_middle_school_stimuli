@@ -29,5 +29,3 @@ But newly enfranchised women voted in much smaller numbers than men. "Women who 
 The political and social change sought by suffragists came gradually and not without fits and starts. An Equal Rights Amendment, stipulating equal treatment of the sexes under the law, was passed by Congress and sent to the states in 1972, but later failed after being ratified by only 35 of the necessary 38 states.
 
 In 1980, however, women surpassed men for the first time in turnout for a presidential election. Since then, there has also been a substantial rise in the number of women running for and holding political office.
-
-[Answer some questions](womens_test.html)

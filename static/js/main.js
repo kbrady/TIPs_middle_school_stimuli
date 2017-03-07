@@ -1,3 +1,5 @@
+var rate = 1;
+
 function read_out() {
 	var supportMsg = document.getElementById('speach-msg');
 	if ('speechSynthesis' in window) {
@@ -14,7 +16,21 @@ function read_out() {
 	window.speechSynthesis.cancel();
 	var paragraphs = document.getElementById("content").children;
 	for (var i=0, max=paragraphs.length; i < max; i++) {
+		if (paragraphs[i].textContent.length > 0) {
   		say(paragraphs[i]);
+		}
+	}
+}
+
+function change_rate(move_up) {
+	var rate_values = [0.1, 0.2, 0.4, 0.8, 1, 2, 4, 8, 10];
+	if (move_up && rate < 10) {
+		var current_position = rate_values.indexOf(rate);
+		rate = rate_values[current_position + 1];
+	}
+	if (!move_up && rate > 0.1) {
+		var current_position = rate_values.indexOf(rate);
+		rate = rate_values[current_position - 1];
 	}
 }
 
@@ -36,6 +52,11 @@ function say(my_element) {
 		if (i == 0) {
 			msg.onstart = function (event) {
 				my_element.className += " highlighted";
+				msg.rate = rate;
+			};
+		} else {
+			msg.onstart = function (event) {
+				msg.rate = rate;
 			};
 		}
 		if (i+1 == text_snippets.length) {

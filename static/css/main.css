@@ -2,3 +2,17 @@
 	color:blue;
 	font-weight: bold;
 }
+
+body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#tts-buttons {
+	padding-right: 70px;
+}
+
+.test-boxes {
+	float:left;
+  margin-right:20px;
+}

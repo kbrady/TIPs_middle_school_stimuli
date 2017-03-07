@@ -21,5 +21,3 @@ The campaign for women's rights began in earnest in 1848 at a Women's Rights con
 Stanton was joined in her campaign by Susan B. Anthony, Sojourner Truth, Lucretia Mott, and other crusaders who would become icons of the women's movement. Some were militant. Many were met with verbal abuse and even violence. Already active in the antislavery movement and temperance campaigns (which urged abstinence from alcohol), women often enlisted in the fight for voting rights too.
 
 ![Elizabeth Cady Stanton and Susan B. Anthony](https://www.nationsreportcard.gov/subject/reading_2011/images/tyread8_passage_img2.jpg "Elizabeth Cady Stanton and Susan B. Anthony")
-
-[Next](womens_suffrage_2.html)
