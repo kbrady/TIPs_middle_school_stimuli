@@ -1,5 +1,20 @@
 var rate = 1;
 
+function hide_last_link() {
+	var frames = document.getElementsByTagName('iframe');
+	if (frames.length == 2) {
+		links = frames[1].contentDocument.getElementsByTagName('a');
+		for (var i=0; i < links.length; i++) {
+			var alt = links[i].getAttribute('alt');
+			if (alt == "") {
+				links[i].className += " hidden";
+			} else {
+				links[i].href = alt;
+			}
+		}
+	}
+}
+
 function read_out() {
 	var supportMsg = document.getElementById('speach-msg');
 	if ('speechSynthesis' in window) {

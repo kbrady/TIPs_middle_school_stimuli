@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Custom css-->
+<link rel="stylesheet" href="static/css/main.css">
+
+<!-- Custom javascript-->
+<script src="static/js/main.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="full-body" class="container-fluid" style="padding-right:30px;">
+
+
+<!-- note taking javascript from hypothes.is-->
+<script async defer src="https://hypothes.is/embed.js"></script>
+
+<!-- child of the body tag -->
+<nav class="navbar-fixed-top">
+	<div class="navbar-right">
+	<div id="tts-buttons">
+	    <a class="well well-sm" onclick="read_out()">
+	        <i class="glyphicon glyphicon-play"></i> Read
+	    </a>
+	    <a class="well well-sm" onclick="window.speechSynthesis.pause()">
+	        <i class="glyphicon glyphicon-pause"></i> Pause  
+	    </a>
+	</div>
+	</div>
+</nav>
+<!-- /top-link-block -->
+
+<!-- is speach syntehsis supported? -->
+<div id="speach-msg" class="hidden" role="alert"></div>
+<div id="content" class="container-fluid">
+<h1>Women's Suffrage</h1>
+<p>Wednesday, March 8th was International Women's Day! In celebration, you will be reading this passage about Women's Suffrage.  We hope you learn some cool things! First we will ask some questions. Then, you will be reading digitally and on paper.  Lastly, we will ask a few questions about what you learned. Happy Reading!</p></div>
+<a alt="womens_suffrage_1_B.html" href="womens_pre_test_B.html">Next</a>
+</div>
+</body>
+</html>
