@@ -21,7 +21,8 @@ After two roll calls, the vote was still tied, 48-48. On the third, Harry T. Bur
 Burn said later: "I know that a mother's advice is always safest for her boy to follow and my mother wanted me to vote for ratification. I appreciated the fact that an opportunity such as seldom comes to mortal man-to free 17,000,000 women from political slavery-was mine."
 
 ![Suffrage advocates threw the very first white house picket protest. For 2 1/2 years, six days a week, they held up signs saying "How long must women wait for liberty?" and "Mr. President, what will you do for woman suffrage?"](http://images.mentalfloss.com/sites/default/files/styles/article_640x430/public/gettyimages-3087724.png)
-*Suffrage advocates threw the very first white house picket protest. For 2 1/2 years, six days a week, they held up signs saying "How long must women wait for liberty?" and "Mr. President, what will you do for woman suffrage?"*
+
+*Did you know: Suffrage advocates threw the very first white house picket protest. For 2 1/2 years, six days a week, they held up signs saying "How long must women wait for liberty?" and "Mr. President, what will you do for woman suffrage?"*
 
 ### Gradual Change
 

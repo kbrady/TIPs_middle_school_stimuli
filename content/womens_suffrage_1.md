@@ -14,7 +14,9 @@ The amendment was a long time coming. At various times, women could run for publ
 
 ### "Womanifesto"
 
-The campaign for women's rights began in earnest in 1848 at a Women's Rights convention in Seneca Falls, N.Y., organized by 32-year-old Elizabeth Cady Stanton and other advocates. Stanton had drafted a "Womanifesto" patterned on the Declaration of Independence, but the one resolution that shocked even some of her supporters was a demand for equal voting rights, also known as universal suffrage. "I saw clearly," Stanton later recalled, "that the power to make the laws was the right through which all other rights could be secured." Elizabeth Cady Stanton was the first women to run for congress-back in 1866.
+The campaign for women's rights began in earnest in 1848 at a Women's Rights convention in Seneca Falls, N.Y., organized by 32-year-old Elizabeth Cady Stanton and other advocates. Stanton had drafted a "Womanifesto" patterned on the Declaration of Independence, but the one resolution that shocked even some of her supporters was a demand for equal voting rights, also known as universal suffrage. "I saw clearly," Stanton later recalled, "that the power to make the laws was the right through which all other rights could be secured."
+
+Did you know: Elizabeth Cady Stanton was the first women to run for congress-back in 1866.
 
 Stanton was joined in her campaign by Susan B. Anthony, Sojourner Truth, Lucretia Mott, and other crusaders who would become icons of the women's movement. Some were militant. Many were met with verbal abuse and even violence. Already active in the antislavery movement and temperance campaigns (which urged abstinence from alcohol), women often enlisted in the fight for voting rights too.
 
