@@ -3,9 +3,15 @@ function on_load_methods() {
 	for (var i=0; i < paragraphs.length; i++) {
 		if (paragraphs[i].getElementsByTagName('small').length > 0) {
 			paragraphs[i].className += " centered";
+			continue;
 		}
 		if (paragraphs[i].getElementsByTagName('img').length > 0) {
 			paragraphs[i].className += " centered";
+			continue;
+		}
+		if (paragraphs[i].textContent.startsWith("Did you know:")) {
+			paragraphs[i].className += " boxed";
+			continue;
 		}
 	}
 }

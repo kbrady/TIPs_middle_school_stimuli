@@ -7,6 +7,11 @@
 	text-align: center;
 }
 
+.boxed {
+	border: solid 1px black;
+	padding: 10px;
+}
+
 body {
   padding-top: 60px;
   padding-bottom: 60px;
