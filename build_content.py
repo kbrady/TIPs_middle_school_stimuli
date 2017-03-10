@@ -28,7 +28,7 @@ def filter_and_concat(reader_file):
 		return output
 
 class FrameContent:
-	def __init__(self, src, width=640, height=700):
+	def __init__(self, src, width=640, height=650):
 		self.src = src
 		self.width = str(width)
 		self.height = str(height)
@@ -109,9 +109,10 @@ def build_set(content_list, version):
 			alt_prev = "" if i-1 < 0 else to_html_name(content_list[i-1], version)
 
 delete_html_files()
-test_frame = FrameContent("https://docs.google.com/forms/d/e/1FAIpQLSdHGh1VHoIoAQbN85aAIwA6htcAE-aR4aHH5hKKgXaQuyXPqg/viewform?embedded=true")
-womens_pre_test = ['womens_pre_test.html', [test_frame]]
-womens_post_test_A = ['womens_post_test.html', [test_frame, FrameContent('womens_suffrage_0_A.html')]]
-womens_post_test_B = ['womens_post_test.html', [test_frame, FrameContent('womens_suffrage_0_B.html')]]
+pre_test_frame = FrameContent("https://docs.google.com/forms/d/e/1FAIpQLSdHGh1VHoIoAQbN85aAIwA6htcAE-aR4aHH5hKKgXaQuyXPqg/viewform?embedded=true")
+post_test_frame = FrameContent("https://docs.google.com/forms/d/e/1FAIpQLSf2VYGp9fczxeVcq7PAG39TbxgFyprx7D-lwxWMWS0TEE6k3w/viewform?embedded=true")
+womens_pre_test = ['womens_pre_test.html', [pre_test_frame]]
+womens_post_test_A = ['womens_post_test.html', [post_test_frame, FrameContent('womens_suffrage_0_A.html')]]
+womens_post_test_B = ['womens_post_test.html', [post_test_frame, FrameContent('womens_suffrage_0_B.html')]]
 build_set(['womens_suffrage_0.md', womens_pre_test, 'paper.md', 'womens_suffrage_2.md', womens_post_test_A], 'A')
 build_set(['womens_suffrage_0.md', womens_pre_test, 'womens_suffrage_1.md', 'paper.md', womens_post_test_B], 'B')
