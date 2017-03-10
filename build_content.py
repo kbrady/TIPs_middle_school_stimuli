@@ -52,12 +52,14 @@ def build_iframes(frame_list):
 
 def build_content(filename):
 	html = ''
+	html += '<div id="content" class="container-fluid">\n'
 	# add the body
 	content_text = filter_and_concat('content'+os.sep+filename)
 	if filename.endswith('.md'):
 		html += markdown.markdown(content_text)
 	else:
 		html += content_text
+	html += '</div>\n'
 	return html
 
 def build_webpage(filename, version, include_voice=False, next_page="", prev_page="", alt_next=None, alt_prev=None, frames=None):
@@ -73,7 +75,7 @@ def build_webpage(filename, version, include_voice=False, next_page="", prev_pag
 			alt_prev = prev_page if alt_prev is None else alt_prev
 			html += '<a alt="'+alt_prev+'" href="'+prev_page+'">Prev</a>\n'
 		# make sure the content div only wraps the content (this is important for readout)
-		html += '<div id="content" class="container-fluid">\n'
+		html += '<div class="container-fluid">\n'
 		if frames is None:
 			html += build_content(filename)
 		else:

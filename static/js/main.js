@@ -1,4 +1,14 @@
-var rate = 1;
+function on_load_methods() {
+	var paragraphs = document.getElementsByTagName('p');
+	for (var i=0; i < paragraphs.length; i++) {
+		if (paragraphs[i].getElementsByTagName('small').length > 0) {
+			paragraphs[i].className += " centered";
+		}
+		if (paragraphs[i].getElementsByTagName('img').length > 0) {
+			paragraphs[i].className += " centered";
+		}
+	}
+}
 
 function hide_last_link() {
 	var frames = document.getElementsByTagName('iframe');
