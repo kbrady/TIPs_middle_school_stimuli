@@ -37,18 +37,6 @@ function read_out() {
 	}
 }
 
-function change_rate(move_up) {
-	var rate_values = [0.1, 0.2, 0.4, 0.8, 1, 2, 4, 8, 10];
-	if (move_up && rate < 10) {
-		var current_position = rate_values.indexOf(rate);
-		rate = rate_values[current_position + 1];
-	}
-	if (!move_up && rate > 0.1) {
-		var current_position = rate_values.indexOf(rate);
-		rate = rate_values[current_position - 1];
-	}
-}
-
 function say(my_element) {
 	var sentences = my_element.textContent.match( /[^\.!\?]+[\.!\?]*/g );
 	var text_snippets = [];
@@ -67,7 +55,6 @@ function say(my_element) {
 		if (i == 0) {
 			msg.onstart = function (event) {
 				my_element.className += " highlighted";
-				msg.rate = rate;
 			};
 		} else {
 			msg.onstart = function (event) {
