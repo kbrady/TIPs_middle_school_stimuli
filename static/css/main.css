@@ -6,6 +6,10 @@
     }
 }
 
+highlight {
+	background-color: rgba(255, 255, 0, .2);
+}
+
 .highlighted {
 	color:blue;
 	font-weight: bold;
