@@ -14,12 +14,40 @@ function on_load_methods() {
 			continue;
 		}
 	}
+	var GET_parts = window.location.search.substr(1).split("=");
+	var s_id = "";
+	for (var i = 0; i < GET_parts.length-1; i++) {
+		if (GET_parts[i] == "s_id") {
+			s_id = GET_parts[i+1];
+			add_s_id(s_id);
+		}
+	}
+}
+
+function update_s_id() {
+	var s_id = document.getElementById("s_id_setter").value
+	add_s_id(s_id);
+}
+
+function add_s_id(s_id) {
+	var frames = document.getElementsByTagName('iframe');
+	if (frames.length == 2) {
+		frames[1].src += "?s_id="+s_id.toString();
+	}
+	var links = document.getElementsByTagName('a');
+	for (var i=0; i < links.length; i++) {
+		if (links[i].href.indexOf("?") > -1) {
+			links[i].href = links[i].href.substr(0, links[i].href.indexOf("?")) + "?s_id="+s_id.toString();
+		} else {
+			links[i].href += "?s_id="+s_id.toString();
+		}
+	}
 }
 
 function hide_last_link() {
 	var frames = document.getElementsByTagName('iframe');
 	if (frames.length == 2) {
-		links = frames[1].contentDocument.getElementsByTagName('a');
+		var links = frames[1].contentDocument.getElementsByTagName('a');
 		for (var i=0; i < links.length; i++) {
 			var alt = links[i].getAttribute('alt');
 			if (alt == "") {

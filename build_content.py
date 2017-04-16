@@ -50,7 +50,7 @@ def build_iframes(frame_list):
 		html = fill_frame(html, frame, i==0)
 	return html
 
-def build_content(filename):
+def build_content(filename, include_id_setter=False):
 	html = ''
 	html += '<div id="content" class="container-fluid">\n'
 	# add the body
@@ -59,10 +59,13 @@ def build_content(filename):
 		html += markdown.markdown(content_text)
 	else:
 		html += content_text
+	# add id setter
+	if include_id_setter:
+		html += filter_and_concat('templates'+os.sep+'id_setter.html')
 	html += '</div>\n'
 	return html
 
-def build_webpage(filename, version, include_voice=False, next_page="", prev_page="", alt_next=None, alt_prev=None, frames=None):
+def build_webpage(filename, version, include_voice=False, next_page="", prev_page="", alt_next=None, alt_prev=None, frames=None, include_id_setter=False):
 	html = ''
 	html_filename = to_html_name(filename, version)
 	with open(html_filename, 'w') as output_file:
@@ -77,7 +80,7 @@ def build_webpage(filename, version, include_voice=False, next_page="", prev_pag
 		# make sure the content div only wraps the content (this is important for readout)
 		html += '<div class="container-fluid">\n'
 		if frames is None:
-			html += build_content(filename)
+			html += build_content(filename, include_id_setter)
 		else:
 			html += build_iframes(frames)
 		html += '</div>\n'
@@ -91,6 +94,7 @@ def build_webpage(filename, version, include_voice=False, next_page="", prev_pag
 def build_set(content_list, version):
 	prev = ""
 	alt_prev = None
+	first = True
 	for i in range(len(content_list)):
 		content = content_list[i]
 		next = "" if i+1 == len(content_list) else to_html_name(content_list[i+1], version)
@@ -99,14 +103,15 @@ def build_set(content_list, version):
 		else:
 			alt_next = "" if i+2 >= len(content_list) else to_html_name(content_list[i+2], version)
 		if type(content) == str:
-			build_webpage(content, version, include_voice=True, next_page=next, prev_page=prev, alt_next=alt_next, alt_prev=alt_prev)
+			build_webpage(content, version, include_voice=True, next_page=next, prev_page=prev, alt_next=alt_next, alt_prev=alt_prev, include_id_setter=first)
 		else:
-			build_webpage(content[0], version, include_voice=False, next_page=next, prev_page=prev, alt_next=alt_next, alt_prev=alt_prev, frames=content[1])
+			build_webpage(content[0], version, include_voice=False, next_page=next, prev_page=prev, alt_next=alt_next, alt_prev=alt_prev, frames=content[1], include_id_setter=first)
 		prev = to_html_name(content, version)
 		if prev.find('test') == -1:
 			alt_prev = None
 		else:
 			alt_prev = "" if i-1 < 0 else to_html_name(content_list[i-1], version)
+		first = False
 
 #delete_html_files()
 pre_test_frame = FrameContent("https://docs.google.com/forms/d/e/1FAIpQLSdHGh1VHoIoAQbN85aAIwA6htcAE-aR4aHH5hKKgXaQuyXPqg/viewform?embedded=true")
